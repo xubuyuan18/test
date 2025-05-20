@@ -1,3 +1,5 @@
+nmcli device wifi list
+nmcli device wifi connect "名称" password "Wi-Fi密码"
 pip install jupyter-ai[all]
 
 sudo npu-smi set -t pwm-duty-ratio -d 100
